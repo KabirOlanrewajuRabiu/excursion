@@ -1,22 +1,43 @@
-* {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
+    text-align: center;
 }
 
  h1 {
     font-size: 50px;
     font-weight: normal;
     color: white;
-    text-align: center;
-    padding: 5px 0px;
 }
 
-#link {
+#link, #camp, #phone {
     display: flex;
     justify-content: center;
+    margin: 25px 0px;
 }
 
 #link a {
     font-size: 16px;
     color: aquamarine;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+h3 {
+    font-size: 42px;
+    font-weight: normal;
+    color: white;
+}
+
+p {
+    font-size: 21px;
+    color: grey;
+}
+
+footer {
+    text-align: right;
 }
